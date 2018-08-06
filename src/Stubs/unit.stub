@@ -1,0 +1,17 @@
+<?php
+
+use _class_namespace_\_class_;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
+
+class _test_class_ extends TestCase
+{
+    use DatabaseMigrations;
+
+    public function setUp()
+    {
+        parent::setUp();
+        $this->class = $this->app->make(_class_::class);
+    }
+
+    _methods_
+}

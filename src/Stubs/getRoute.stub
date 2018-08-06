@@ -1,0 +1,6 @@
+
+    public function test_ucAction__ucRoute_()
+    {
+        $response = $this->call('_action_', '_route_');
+        $this->assertEquals(200, $response->getStatusCode());
+    }

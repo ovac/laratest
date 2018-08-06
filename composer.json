@@ -1,0 +1,31 @@
+{
+    "name": "yab/laratest",
+    "description": "The easiest way to generate tests from your existing files and routes.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lantz",
+            "email": "matt@yabhq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "mikey179/vfsStream": "^1.6",
+        "orchestra/testbench": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yab\\LaraTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}

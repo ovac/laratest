@@ -1,0 +1,10 @@
+
+    public function testuc_function_()
+    {
+_params_
+        $test = $this->class->_function_(_param_one_line);
+
+        //$this->assertTrue($test);
+        //$this->assertFalse($test);
+        //$this->assertEquals(null, $test);
+    }
